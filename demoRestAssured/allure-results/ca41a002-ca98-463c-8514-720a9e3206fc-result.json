@@ -1,0 +1,76 @@
+{
+  "uuid": "ca41a002-ca98-463c-8514-720a9e3206fc",
+  "historyId": "681400a39c89def6cdea42152f198ded",
+  "testCaseId": "[engine:junit-jupiter]/[class:com.example.demorestassured.DemoRestAssuredApplicationTests]/[method:contextLoads()]",
+  "testCaseName": "contextLoads()",
+  "fullName": "com.example.demorestassured.DemoRestAssuredApplicationTests.contextLoads",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:com.example.demorestassured.DemoRestAssuredApplicationTests]/[method:contextLoads()]"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-3P4ONSL8"
+    },
+    {
+      "name": "thread",
+      "value": "16636@LAPTOP-3P4ONSL8.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "com.example.demorestassured.DemoRestAssuredApplicationTests"
+    },
+    {
+      "name": "testClass",
+      "value": "com.example.demorestassured.DemoRestAssuredApplicationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "contextLoads"
+    },
+    {
+      "name": "suite",
+      "value": "com.example.demorestassured.DemoRestAssuredApplicationTests"
+    }
+  ],
+  "links": [],
+  "name": "contextLoads()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [
+    {
+      "name": "Build url",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743351334464,
+      "stop": 1743351334464
+    },
+    {
+      "name": "Assert http code",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743351334464,
+      "stop": 1743351335507
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743351334461,
+  "stop": 1743351335522
+}
