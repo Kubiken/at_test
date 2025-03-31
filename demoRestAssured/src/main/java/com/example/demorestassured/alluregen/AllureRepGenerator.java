@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class AllureRepGenerator {
 
-    private static String filepath = "C:\\Users\\BSC\\IdeaProjects\\demoRestAssured\\target\\allure-results\\";
+    private static final String filepath = "C:\\fineWork\\at_test\\demoRestAssured\\target\\allure-results";
 
     public static void generateAllureResults(ChecklistResult checklistResults) {
         AllureContainer mainContainer = new AllureContainer();
