@@ -2,6 +2,7 @@ package com.example.demorestassured;
 
 
 import io.qameta.allure.Allure;
+import io.qameta.allure.restassured.AllureRestAssured;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -30,7 +31,9 @@ class DemoRestAssuredApplicationTests {
                                 .build();
                         */
         Allure.step("Assert http code", () -> {
-            given().pathParams(params)
+            given()
+                    .filter(new AllureRestAssured())
+                    .pathParams(params)
                     .get("https://httpbin.org/status/{code}")
                     .then()
                     .assertThat()
@@ -54,7 +57,9 @@ class DemoRestAssuredApplicationTests {
                                 .build();
                         */
         Allure.step("Assert http code", () -> {
-            given().pathParams(params)
+            given()
+                    .filter(new AllureRestAssured())
+                    .pathParams(params)
                     .get("https://httpbin.org/status/{code}")
                     .then()
                     .assertThat()
